@@ -18,6 +18,6 @@ fn main() {
         };
 
         let temperature: f64 = ((temperature - 32.0) * (5.0/9.0)).into();
-        println!("Celcius value is {temperature}")
+        println!("Celcius value is: {temperature}")
     }
 }
